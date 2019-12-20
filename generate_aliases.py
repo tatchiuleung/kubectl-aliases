@@ -49,6 +49,8 @@ def main():
 
     res = [
         ('po', 'pods', ['g', 'd', 'rm'], None),
+        ('pvc', 'persistentvolumeclaim', ['g', 'd', 'rm'], None),
+        ('pv', 'persistentvolume', ['g', 'd', 'rm'], None),
         ('dep', 'deployment', ['g', 'd', 'rm'], None),
         ('sts', 'statefulset', ['g', 'd', 'rm'], None),
         ('rs', 'replicaset', ['g', 'd', 'rm'], None),
